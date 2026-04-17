@@ -1,0 +1,175 @@
+.carrossel {
+  height:100vh;
+}
+
+.content {
+    height: 55vh;
+    width: 45vw;
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .navigation {
+    position: absolute;
+    bottom:1px;
+    left:50%;
+    transform: translate(-50%);
+    display:flex;
+  }
+  
+
+  .bar {
+    width:6vh;
+    height:1.5vh;
+    border: 1px solid #ffffffd6;
+    margin: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom:2px;
+    background-color:#00000007;
+  }
+
+  .bar:hover{
+    background-color:#ffffff15;
+  }
+
+  input {
+    display:none;
+  }
+
+  .slides {
+    display:flex;
+    width:500%;
+    height:100%;
+  }
+
+  .slide {
+    width:20%;
+    transition: 0.6s;
+    flex-shrink: 0;
+
+  }
+
+  .slide img {
+    width:100%;
+    height:100%;
+    opacity:0.95;
+    object-fit: cover;
+
+  }
+
+  #slide1:checked ~ .s1 {
+    margin-left:0%;
+  }
+
+  #slide2:checked ~ .s1 {
+    margin-left:-20%;
+  }
+
+  #slide3:checked ~ .s1 {
+    margin-left:-40%;
+  }
+
+  #slide4:checked ~ .s1 {
+    margin-left:-60%;
+  }
+
+  #slide5:checked ~ .s1 {
+    margin-left:-80%;
+  }
+
+  .fileira-albuns {
+    margin: 20px auto;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  .albuns {
+    text-align: center;
+  }
+
+
+  table {
+    margin: 15px auto;
+    
+  }
+
+  td {
+    padding:14px;
+    margin:0;
+    border:1px rgb(169, 170, 169) solid;
+    border-radius: 20px;
+  }
+
+  table a {
+    text-decoration: none;
+    color:black;
+
+  }
+
+.container-album {
+    position:relative;
+    margin-top:3vh;
+    max-width:30vw;
+    display:flex;
+    border: 1px solid rgb(140, 140, 142);
+    border-radius: 12px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.524);
+}
+
+.container-album-esquerda {
+    width:40%;
+    display:block;
+    text-align: center;
+    padding:4px;
+
+}
+
+.container-album img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.container-album-direita {
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: relative; 
+  padding: 10px; 
+  width: 55%; 
+  text-align: justify;
+  float:right;
+  margin-left:3vw;
+  width:45%;
+  text-align: justify;
+}
+
+.data-lancamento {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.descricao-album {
+    position:relative;
+    display:inline-block;
+}
+
+.data-lancamento, .artista {
+  margin:3px;
+}
+
+.descricao-album {
+  margin-top: 10px;
+}
+
+

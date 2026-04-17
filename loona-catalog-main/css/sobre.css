@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sobre-loona {
+    padding-top:11vh;
+    max-width:60vw;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+h1, h2 {
+    margin-top:25px;
+}
+
+p {
+    text-align: justify;
+    font-size: 19px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+.container-membro {
+    max-width:25vw;
+    text-align: center;
+    margin:0 auto;
+    padding-top:30px;
+}
+
+.container-membro img {
+    height:300px;
+    width:300px;
+    object-fit: cover;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.867);
+
+}
