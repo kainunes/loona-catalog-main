@@ -7,9 +7,8 @@ Tecnologias Usadas:
 HTML
 CSS
 JAVASCRIPT
-Funcionalidades
 
-Listagem dos álbuns com capas, títulos e datas de lançamento.
+Funcionalidades: Listagem dos álbuns com capas, títulos e datas de lançamento.
 Descrições detalhadas de cada álbum.
 
 Contribuidora: Dandara Pimenta.
