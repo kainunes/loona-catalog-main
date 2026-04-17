@@ -2,7 +2,7 @@ Catálogo de Álbuns do LOONA
 
 Este é um projeto de site em formato de catálogo que exibe os álbuns de música do grupo de K-Pop LOONA. O objetivo é criar uma plataforma visualmente atraente e fácil de usar para fãs do grupo.
 
-Tecnologias Usadas
+Tecnologias Usadas:
 
 HTML
 CSS
